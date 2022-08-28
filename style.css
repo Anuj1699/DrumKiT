@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 64.5%;
+    min-height: 100vh;
+    background-color: #b1e1ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    color: pink;
+    margin-top: 7rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.clr {
+    height: 10rem;
+    font-size: 2rem;
+    color: pink;
+    margin: 0 3rem;
+    width: 12rem;  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px lightblue ;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)0.5s;
+}
+.clr:hover {
+    color: rgb(255, 1, 162);
+    transform: scale(1.2);
+}
+
+.Crush {
+    background-image: url("./images/Crushh.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Kick {
+    background-image: url("./images/Kick.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Snare {
+    background-image: url("./images/snare.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Tom {
+    background-image: url("./images/tom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.touchkey{
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1).5s;
+    transform: scale(1.3);
+}
